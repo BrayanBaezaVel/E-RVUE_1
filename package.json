@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@vue/runtime-dom": "^3.5.16",
     "bootstrap": "^5.3.6",
     "bootstrap-icons": "^1.13.1",
     "cors": "^2.8.5",
