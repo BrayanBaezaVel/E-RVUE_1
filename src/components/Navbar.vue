@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar navbar-expand-lg custom-navbar">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="/">
                 <i class="bi bi-bag"></i> E&R FAMILY
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
