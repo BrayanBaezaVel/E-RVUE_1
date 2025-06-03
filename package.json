@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "concurrently \"vite\" \"node src/router/server.js\"",
-    "build": "./build.sh",
+    "build": "chmod +x ./node_modules/.bin/vite && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
