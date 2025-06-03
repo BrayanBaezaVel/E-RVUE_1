@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "concurrently \"vite\" \"node src/router/server.js\"",
-    "build": "chmod +x ./node_modules/.bin/vite && vite build",
-    "preview": "vite preview"
+  "dev": "concurrently \"vite\" \"node src/router/server.js\"",
+  "build": "chmod +x ./node_modules/.bin/vite && vite build",
+  "preview": "vite preview"
   },
   "dependencies": {
     "@vue/runtime-dom": "^3.5.16",

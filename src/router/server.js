@@ -6,11 +6,8 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.use(cors());
-app.use(express.json());
-
 let productos = [
-    { id: 1, nombre: "Camiseta Drew", precio: 20 },
+    { id: 1, nombre: "Camiseta Drew", precio: 25 },
     { id: 2, nombre: "Pantalón Jeans", precio: 30 },
     { id: 3, nombre: "Chaqueta Negra", precio: 50},
     { id: 4, nombre: "Gorra Street", precio: 15 },
